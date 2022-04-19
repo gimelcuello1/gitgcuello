@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header class="speaker-form-header">
+        <h1>Speaker Submission</h1>
+
+    </header>
+    <form action="form.php"  method="post" class="speaker-form">
+<div class="form-row">
+    <label for="Full-name">Name</label>
+    <input type="email" id="Full-name" placeholder="Ej:Jose" 
+    name="nombre">
+
+</div>
+<div class="form-row">
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Ej:Jose.com" 
+    name="email">
+</div>
+
+<fieldset>
+    <legend>Type of talk</legend>
+    <input type="radio" mane="talk-type" id="talk-type-1">
+    <label for="talk-type-1" class="radio-label">Main stage</label>
+
+    <input type="radio" mane="talk-type" id="talk-type-2" checked>
+    <label for="talk-type-2" class="radio-label">workshop</label>
+</fieldset>
+<div class="form-row">
+
+    <legend for="abstract">Textarea</legend>
+    <textarea name="textarea" id="abstract" cols="30" rows="10"></textarea>
+    <p class="instructions">Describe your in 500words of les</p>
+</div>
+
+<div class="form-row"> 
+<button type="submit">submit</button>
+</div>
+
+</form>
+
+
+
+
+
+
+    <footer>
+        <div>
+            <a href="https://www.instagram.com/carlosandcharlyoficial/?hl=es"><img src="multimedia/SVG/instagram.svg" alt=""></a></div>
+        
+        <div>
+            <a href="https://www.youtube.com/embed/GQNg0pdaKLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <img src="multimedia/SVG/youtube1.svg" alt=""></a>
+        </div>
+        
+        <h6>Todos los derechos reservados</h6> 
+        
+        </footer>
+</body>
+</html>
