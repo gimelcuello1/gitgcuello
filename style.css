@@ -24,11 +24,15 @@ header{
     justify-content: center;
     align-items: center;
     height: 15%;
+    border-radius: 10px;
     transition: all 4s;
     
 }
 .conteiner-logo:hover{
-    transform: rotate(360deg) scale(1) translateX(120px);
+   -webkit-transform: rotate(180deg);
+   -webkit-transform-style: preserv-3d;
+   transform: rotateY(180deg);
+   transform-style: preserve-3d;
 }
     
 
